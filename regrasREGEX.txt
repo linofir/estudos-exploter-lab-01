@@ -1,0 +1,13 @@
+//visa começa com 4 seguido de 15 dígitos ^4\d{0,15}
+4234234423432344
+
+*/mastercard
+inicia com 5, seguido de 1-5, seguido de +2 digitos
+inicia com 22, seguido de 2-9, + 1 dígito
+inicia com 2, seguido de 3-7, +2 dígitos
++ 12 dígitos para todos
+(^5[1-5]\d{0,2}\d{0,12})|(^22[2-9]\d\d{0,12})|(^2[3-7]\d{0,2}\d{0,12})
+*/
+5353535353535353
+2323232323232323
+2291222222222222
